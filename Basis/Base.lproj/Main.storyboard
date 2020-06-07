@@ -56,13 +56,13 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pn3-kH-66o">
-                                <rect key="frame" x="207" y="782" width="0.0" height="0.0"/>
+                                <rect key="frame" x="207" y="802" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iPO-zy-Ei9">
-                                <rect key="frame" x="194.5" y="798" width="25" height="25"/>
+                                <rect key="frame" x="194.5" y="818" width="25" height="25"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="25" id="2dN-Wr-3Be"/>
@@ -77,7 +77,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pn3-kH-66o" secondAttribute="bottom" constant="80" id="2QZ-Gb-bQW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pn3-kH-66o" secondAttribute="bottom" constant="60" id="2QZ-Gb-bQW"/>
                             <constraint firstItem="iPO-zy-Ei9" firstAttribute="top" secondItem="pn3-kH-66o" secondAttribute="bottom" constant="16" id="2Zm-KR-qaK"/>
                             <constraint firstItem="pn3-kH-66o" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="8p8-OP-PzA"/>
                             <constraint firstItem="wan-WJ-KY0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="PH5-Nc-l8t"/>

@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     @IBAction func resetButtonAction(_ sender: UIButton) {
         self.resetButtonOutlet.isHidden = true
         self.progressLabel.text = "1/\(self.cardData.count)"
-        self.collectionView.scrollToFrame(scrollOffset: 0)
+        self.collectionView.scrollToFirst()
     }
     
     override func viewDidLoad() {
